@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Lato;
+}
+a{
+    color: 000;
+    text-decoration: none;
+}
+a:hover{
+    color: #000;
+}
+.full-height{
+    height: 100vh;
+}
+.heading-font{
+    font-family: Times New Roman;
+}
+.nav-bar-div{
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+.logo-navbar{
+    height: inherit;
+    width: 200px;
+    margin-left: 10px;
+}
+.nav-link-1{
+    margin-top: 25px;
+    margin-left: 600px;
+    color: #000;
+    text-decoration: none;
+}
+.nav-link-2, .nav-link-3,.nav-link-4{
+    margin-left: 20px;
+    color: #000;
+    text-decoration: none;
+    margin-top: 25px;
+}
+.nav-link-1:hover,.nav-link-2:hover,.nav-link-3:hover,.nav-link-4:hover{
+    color: #000;
+}
+.team-profile{
+	height: 300px;
+	width: 300px;
+	margin-left: 520px;
+}
+.footer-div{
+    margin-top: 30px;
+    width: 100%;
+    border-top: 1px solid #000;
+    height: 300px;
+    padding-top: 50px;
+}
+.sub-mail-header{
+    margin-left: 20px;
+}
+.sub-mail-inp{
+    height: 40px;
+    width: 200px;
+    border: 1px solid #000;
+    background-color: #fff;
+    padding: 5px;
+    outline: none;
+    margin-left: 20px;
+}
+.sub-mail-btn{
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #000;
+    width: 100px;
+    transition: .5s;
+}
+.sub-mail-btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+.add-links{
+    width: 300px;
+    height: 150px;
+    border-left: 1px solid #000;
+    margin-top: -250px;
+    margin-left: 700px;
+    padding-left: 100px;
+}
+.add-links-a{
+    color: #000;
+    text-decoration: none;
+}
+.add-links-a:hover{
+    color: #000;
+}
+.hero-img{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    margin-left: 300px;
+    align-self: center;
+    display: flex;
+    margin-top: 20px;
+}

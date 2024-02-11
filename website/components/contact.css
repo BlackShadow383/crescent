@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato;
+}
+input{
+    font-size: 18px;
+}
+textarea{
+    font-size: 18px;
+}
+a{
+    color: 000;
+    text-decoration: none;
+}
+a:hover{
+    color: #000;
+}
+
+.full-height{
+    height: 100vh;
+}
+.heading-font{
+    font-family: Times New Roman;
+}
+.nav-bar-div{
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+.logo-navbar{
+    height: inherit;
+    width: 200px;
+    margin-left: 10px;
+}
+.nav-link-1{
+    margin-top: 25px;
+    margin-left: 600px;
+    color: #000;
+    text-decoration: none;
+}
+.nav-link-2, .nav-link-3,.nav-link-4{
+    margin-left: 20px;
+    color: #000;
+    text-decoration: none;
+    margin-top: 25px;
+}
+.nav-link-1:hover,.nav-link-2:hover,.nav-link-3:hover,.nav-link-4:hover{
+    color: #000;
+}
+.contact-div{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+}
+.main-head{
+    text-align: center;
+}
+.nameInp{
+    height: 50px;
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid #000;
+    background-color: #fff;
+    padding: 5px;
+    outline: none;
+}
+.messInp{
+    height: 200px;
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid #000;
+    background-color: #fff;
+    padding: 5px;
+    outline: none;
+    resize: none;
+}
+.subBtn{
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    background-color: transparent;
+    border: 1px solid #000;
+    transition: .3s;
+}
+.subBtn:hover{
+    background-color: #000;
+    color: #fff;
+}
